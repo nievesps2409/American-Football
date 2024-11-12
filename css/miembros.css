@@ -1,0 +1,108 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.miembros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.miembro {
+    width: 45%;
+    margin: 10px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+h3
+{
+    text-align: center;
+    color:#d74747;
+}
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 41, 41, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.miembro:hover .info {
+    opacity: 1;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+.biografia {
+    text-align: center;
+}
+
+.miembro:nth-child(3),
+.miembro:nth-child(4) {
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .miembro {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .miembro {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .miembro {
+        width: 100%;
+    }
+}
+
+p {
+    margin: 0; 
+    padding: 5px; 
+    font-family: Arial, sans-serif;
+}
+
+
+p:nth-child(4n+1) {
+    font-weight: bold; 
+    color: #0066CC; 
+}
+
+
+p:nth-child(4n+2) {
+    font-style: italic; 
+}
+
+p:nth-child(4n+3) {
+    color: #666666; 
+}
+
+
+p:nth-child(4n+4) {
+    color: #339933; 
+}

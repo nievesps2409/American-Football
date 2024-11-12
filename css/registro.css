@@ -1,0 +1,91 @@
+h3
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color:  #f7aaaa; 
+}
+
+#formulario {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+} 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Estilos para los campos de entrada de texto */
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #d74747;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color:#da8484;
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor de datos personales */
+#datosPersonales {
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Estilos para el espacio entre líneas en el textarea */
+textarea {
+    white-space: pre-wrap;
+}
+
+
+  @media screen and (max-width: 768px) {
+    .login-container {
+        width: 80%;
+        margin: 10% auto;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .login-container {
+        width: 80%;
+        margin: 10% auto;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .login-container {
+        width: 80%;
+        margin: 10% auto;
+    }
+  }

@@ -1,0 +1,158 @@
+
+h3
+{
+    color:#d74747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+h5
+{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-left: -790px;
+}
+
+section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -50px;
+}
+.image-1 
+{
+    background-image: url(../imagenes/Captura\ de\ pantalla\ 2023-11-11\ 121115.png)
+}
+
+.inicio img
+{
+    width: 900px;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 80%;
+        margin: 10% auto;
+        border-radius: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    iframe {
+        width: 80%;
+        margin: 10% auto;
+        border-radius: 10px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    iframe {
+        width: 80%;
+        margin: 10% auto;
+        border-radius: 10px;
+    }
+  }
+
+p
+{
+margin-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 90px;
+    margin-left: 25%;
+    background-color: #101010;
+    box-shadow: 0 0 10px rgba(121, 118, 118, 0.205);
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #101010;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #101010;
+    color:#d68585;
+    border-radius: 10px;
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    
+
+} 
+.imagen img{
+    width: 353px;  
+    height: 353px; 
+    margin: 33px;
+    margin-left: 80px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    img {
+        width: 100%;
+    }
+}
+
+
+
+/* Estilo para las etiquetas */
+label {
+  font-weight: bold;
+}
+
+
+select {
+  width: 15%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+select option {
+  padding: 5px;
+}
+
+#pie1
+{
+    background-color:#101010;
+    width: 100%;
+    height:150px;
+    margin-top:10%;
+     
+} 
+
+
+
+
+
+
+

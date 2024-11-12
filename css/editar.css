@@ -1,0 +1,66 @@
+h3
+{
+    color:#d74747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de texto */
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo específico para el campo de imagen */
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para la etiqueta del título */
+label[for="titulo"] {
+    font-weight: bold;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #d74747;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de enviar al pasar el mouse */
+input[type="submit"]:hover {
+    color:  #f7aaaa; 
+}
+
+/* Estilos específicos para el texto */
+textarea {
+    height: 150px;
+}

@@ -1,0 +1,22 @@
+h4{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: whitesmoke; 
+    line-height: 1.5; /* Ajuste la altura de línea para mejorar la legibilidad */
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.noticia {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
